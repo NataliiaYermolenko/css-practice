@@ -1,56 +1,83 @@
-:root {
-  background: purple;
+/*:root {
+        background: purple;
+      }
+
+      html {
+        max-width: 720px;
+        background: blue;
+      }
+
+      body {
+        background: #fff;
+      }
+
+      * {
+        color: red;
+      }
+
+
+      h1 {
+        color: green;
+      }
+
+      h1 {
+        color: blue;
+      }
+
+      .box {
+        background: #6e6e6e;
+      }
+
+      #user {
+        color: aqua;
+      }
+
+      h1,
+      h2,
+      button.button {
+        color: hotpink;
+      }
+
+      .button {
+        background: #406934;
+        color: darkmagenta;
+      }
+
+      #box>p {
+        color: yellowgreen;
+      }
+
+      footer em {
+        color: chocolate;
+      }
+
+      h1~p {
+        background: rgb(10, 1, 19);
+      }*/
+
+
+
+.card-dark {
+  background: rgb(177, 137, 218);
 }
 
-html {
-  max-width: 720px;
-  background: blue;
+.item:first-child {
+  color: #ac1ccf;
 }
 
-body {
-  background: #fff;
+.item:last-child {
+  color: #18ca5c;
 }
 
-* {
-  color: red;
+p:first-of-type {
+  color: #b8ca18;
 }
 
-
-h1 {
-  color: green;
+strong:not(.big) {
+  color: #895399;
 }
 
-h1 {
-  color: blue;
-}
-
-.box {
-  background: #6e6e6e;
-}
-
-#user {
-  color: aqua;
-}
-
-h1,
-h2,
-button.button {
-  color: hotpink;
-}
-
-.button {
-  background: #406934;
-  color: darkmagenta;
-}
-
-#box>p {
-  color: yellowgreen;
-}
-
-footer em {
-  color: chocolate;
-}
-
-h1~p {
-  background: rgb(10, 1, 19);
+p:empty {
+  height: 10px;
+  background: rgb(177, 137, 218);
 }
