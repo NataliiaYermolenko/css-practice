@@ -1,83 +1,71 @@
-/*:root {
-        background: purple;
-      }
-
-      html {
-        max-width: 720px;
-        background: blue;
-      }
-
-      body {
-        background: #fff;
-      }
-
-      * {
-        color: red;
-      }
-
-
-      h1 {
-        color: green;
-      }
-
-      h1 {
-        color: blue;
-      }
-
-      .box {
-        background: #6e6e6e;
-      }
-
-      #user {
-        color: aqua;
-      }
-
-      h1,
-      h2,
-      button.button {
-        color: hotpink;
-      }
-
-      .button {
-        background: #406934;
-        color: darkmagenta;
-      }
-
-      #box>p {
-        color: yellowgreen;
-      }
-
-      footer em {
-        color: chocolate;
-      }
-
-      h1~p {
-        background: rgb(10, 1, 19);
-      }*/
-
-
-
-.card-dark {
-  background: rgb(177, 137, 218);
+h3 {
+  background: rgb(205, 194, 231);
 }
 
-.item:first-child {
-  color: #ac1ccf;
+.card>h3 {
+  color: green hsla(127, 100%, 63%, 1);
+  -webkit-text-fill-color: rgb(255, 246, 8);
+
+  -webkit-text-stroke: 1px rgb(255, 0, 166);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.5em
 }
 
-.item:last-child {
-  color: #18ca5c;
+p:focus,
+p:active,
+p:hover {
+  -webkit-text-fill-color: rgba(216, 26, 184, 0.911);
+  -webkit-text-stroke: 1px darkblue;
+  direction: rtl;
+  writing-mode: vertical-lr;
+  text-align: justify;
+
 }
 
-p:first-of-type {
-  color: #b8ca18;
+pre {
+  tab-size: 10;
+
 }
 
-strong:not(.big) {
-  color: #895399;
+* {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 900;
+  font-display: swap;
 }
 
-p:empty {
-  height: 10px;
-  background: rgb(177, 137, 218);
+span {
+  text-decoration: underline dotted red;
+  font-size: small;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.test {
+  font-size: larger;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+span:hover {
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+}
+
+h4 {
+  font-stretch: expanded;
+}
+
+/*span {
+  display: none
+}*/
+.block {
+  display: block;
+  margin-left: 50px;
+  background: rgb(224, 220, 220);
+  width: fit-content;
+  max-width: min-content;
+  height: min-content;
+  min-height: max-content;
+
 }

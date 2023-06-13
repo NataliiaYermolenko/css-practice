@@ -1,0 +1,239 @@
+/*:root {
+        background: purple;
+      }
+
+      html {
+        max-width: 720px;
+        background: blue;
+      }
+
+      body {
+        background: #fff;
+      }
+
+       {
+        color: red;
+      }
+
+
+      h1 {
+        color: green;
+      }
+
+      h1 {
+        color: blue;
+      }
+
+      .box {
+        background: #6e6e6e;
+      }
+
+      #user {
+        color: aqua;
+      }
+
+      h1,
+      h2,
+      button.button {
+        color: hotpink;
+      }
+
+      .button {
+        background: #406934;
+        color: darkmagenta;
+      }
+
+      #box>p {
+        color: yellowgreen;
+      }
+
+      footer em {
+        color: chocolate;
+      }
+
+      h1~p {
+        background: rgb(10, 1, 19);
+      }*/
+
+
+
+.card-dark {
+     background: rgb(246, 245, 248);
+}
+
+.item:first-child {
+     color: #ac1ccf;
+}
+
+.item:last-child {
+     color: #18ca5c;
+}
+
+p:first-of-type {
+     color: #b8ca18;
+}
+
+strong:not(.big) {
+     color: #895399;
+}
+
+p:empty {
+     height: 10px;
+     background: rgb(177, 137, 218);
+}
+
+.input-dark[reqired] {
+     background: rgb(187, 181, 221);
+}
+
+.input-dark {
+     background: rgb(222, 70, 113);
+}
+
+.input-dark[type=number] {
+     background: rgb(57, 193, 181);
+}
+
+.small-img[alt~="small"] {
+     height: 500px;
+}
+
+.card[alt~="small"] {
+     height: 500px;
+}
+
+a[rel~="external"] {
+     color: #18ca5c;
+}
+
+button[class|="btn"] {
+     background: rgb(57, 193, 181);
+}
+
+a[class^="btn"] {
+     background: rgb(178, 24, 78);
+}
+
+button[class*="btn"] {
+     background: rgb(6, 123, 84);
+}
+
+button[class$="btn"] {
+     background: rgb(123, 96, 6);
+}
+
+p::first-letter {
+     background: rgb(123, 6, 103);
+}
+
+h5::first-line {
+     background: rgb(55, 113, 107);
+}
+
+.input-dark::placeholder {
+     color: #53997c;
+     background: rgb(55, 60, 113);
+}
+
+.bag-text::before,
+.bag-text::after {
+     content: "$$$";
+     color: green;
+}
+
+.before-after::before,
+.before-after::after {
+     content: "$$$";
+     color: green;
+     content: "$$$"
+}
+
+#test:target {
+     color: red
+}
+
+.link:link {
+     color: red
+}
+
+.card:hover {}
+
+.link:active {
+     color: rgb(42, 40, 156)
+}
+
+input:focus {
+     background-color: rgb(142, 75, 184)
+}
+
+.card:focus-within {
+     background-color: rgb(23, 163, 206)
+}
+
+.card:lang(en)>span::after {
+     content: "(en)"
+}
+
+.card:lang(fr) {
+     background: #77ca18
+}
+
+button {
+     background-color: rgb(23, 163, 206)
+}
+
+button:enabled {
+     background-color: rgb(40, 81, 94)
+}
+
+button:disabled {
+     background-color: rgb(105, 195, 223)
+}
+
+.inp:read-write {
+     background-color: rgb(98, 150, 145)
+}
+
+.inp:read-only {
+     background-color: rgb(206, 120, 163)
+}
+
+input[type="checkbox"]:checked~span {
+     background: red
+}
+
+.valid:valid {
+     background: rgb(105, 87, 87)
+}
+
+.valid:invalid {
+     background: rgb(116, 143, 201)
+}
+
+.valid:optional {
+     background: rgb(116, 201, 175)
+}
+
+.number:focus {
+     background: gray
+}
+
+.number:out-of-range {
+     background: red
+}
+
+.number:in-range {
+     background: green
+}
+
+.number:invalid {
+     background: grey
+}
+
+input:placeholder-shown~span {
+     background: pink
+}
+
+span {
+     display: none
+}
